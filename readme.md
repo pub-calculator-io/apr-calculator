@@ -12,9 +12,8 @@ APR calculator that uses the formula APR = ((I + F) / P) / N can help borrowers 
 3. Activate the [APR Calculator](https://www.calculator.io/apr-calculator/ "APR Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_apr_calculator]` to your page or post and configure default mortgage parameters.
-* If you are using widgets, just add the APR Calculator to the sidebar through the `Appearance -> Widgets -> APR Calculator` menu in WordPress.
-* Add the following code: `<?php display_ci_apr_calculator(); ?>` to your template where you would like the APR Calculator to appear.
+* Add the shortcode `[ci_apr_calculator]` to your page, post or sidebar.
+* Or add the following code: `<?php display_ci_apr_calculator(); ?>` to your template where you would like the APR Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
