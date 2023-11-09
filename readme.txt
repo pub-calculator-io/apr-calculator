@@ -13,6 +13,8 @@ APR calculator that uses the formula APR = ((I + F) / P) / N can help borrowers 
 
 APR calculator that uses the formula APR = ((I + F) / P) / N can help borrowers understand the true cost of loans and how to calculate APR on a loan.
 
+[APR Calculator Homepage](https://www.calculator.io/apr-calculator/ "APR Calculator Homepage")
+
 __Shortcode__
 
 Use the APR Calculator shortcode:
