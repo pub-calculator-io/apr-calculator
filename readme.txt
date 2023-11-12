@@ -13,34 +13,35 @@ APR calculator that uses the formula APR = ((I + F) / P) / N can help borrowers 
 
 APR calculator that uses the formula APR = ((I + F) / P) / N can help borrowers understand the true cost of loans and how to calculate APR on a loan.
 
-[APR Calculator Homepage](https://www.calculator.io/apr-calculator/ "APR Calculator Homepage")
+[https://www.calculator.io/apr-calculator/](https://www.calculator.io/apr-calculator/)
 
-__Shortcode__
-
-Use the APR Calculator shortcode:
+__APR Calculator Shortcode__
 
 `[ci_apr_calculator]`
-
-Libraries in use:
-1. https://mathjs.org/
-2. https://katex.org/
-3. https://github.com/aFarkas/lazysizes
-4. https://github.com/RobinHerbots/Inputmask
-5. https://air-datepicker.com/
-6. https://www.chartjs.org/
 
 == Installation ==
 
 1. Upload the /ci_apr_calculator/ folder to the /wp-content/plugins/ directory.
 2. Activate the [APR Calculator](https://www.calculator.io/apr-calculator/ "APR Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
-== Usage ==
+== APR Calculator Usage ==
+
 * Add the shortcode `[ci_apr_calculator]` to your page, post or sidebar.
 * Add the following code: `<?php display_ci_apr_calculator(); ?>` to your template where you would like the APR Calculator to appear.
 
 == Screenshots ==
+
 1. The APR Calculator Input Form.
 2. The APR Calculator Calculation Results.
+
+== Libraries used in APR Calculator ==
+
+1. https://mathjs.org/
+2. https://katex.org/
+3. https://github.com/aFarkas/lazysizes
+4. https://github.com/RobinHerbots/Inputmask
+5. https://air-datepicker.com/
+6. https://www.chartjs.org/
 
 == Changelog ==
 
