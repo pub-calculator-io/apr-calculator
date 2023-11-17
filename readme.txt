@@ -1,6 +1,6 @@
 === APR Calculator by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: apr calculator, calculate apr, loan apr calculation, mortgage apr calculator, annual percentage rate, credit card apr calculator, auto loan apr, apr comparison, effective apr calculator, finance charge calculator
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0
