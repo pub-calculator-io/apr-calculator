@@ -7,7 +7,7 @@ APR calculator that uses the formula APR = ((I + F) / P) / N can help borrowers 
 
 ## Installation
 
-1. [Download](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
+1. [Download](https://github.com/pub-calculator-io/apr-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
 2. Upload the /apr-calculator-master/ folder to the /wp-content/plugins/ directory.
 3. Activate the [APR Calculator](https://www.calculator.io/apr-calculator/ "APR Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
