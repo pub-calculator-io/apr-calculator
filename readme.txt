@@ -1,4 +1,4 @@
-=== APR Calculator by www.calculator.io ===
+=== CI Apr calculator ===
 Contributors: calculatorio
 Tags: apr calculator, calculate apr, loan apr calculation, mortgage apr calculator, annual percentage rate, credit card apr calculator, auto loan apr, apr comparison, effective apr calculator, finance charge calculator
 Requires at least: 5.0

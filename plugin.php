@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: APR Calculator by www.calculator.io
+Plugin Name: CI Apr calculator
 Plugin URI: https://www.calculator.io/apr-calculator/
 Description: APR calculator that uses the formula APR = ((I + F) / P) / N can help borrowers understand the true cost of loans and how to calculate APR on a loan.
 Version: 1.0.0
