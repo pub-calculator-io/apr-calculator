@@ -10,7 +10,7 @@ function calculate(){
 	const payBack = input.get('pay_back').index().val();
 	const payBackText = input.get('pay_back').raw();
 	if(!loanTerm) {
-		input.error('loan_term_year', 'Please enter loan term');
+		input.error('loan_term_year', 'Enter the loan term');
 	}
 	if(!input.valid()) return;
 	interest = interest / 100;
@@ -196,7 +196,7 @@ function calculateMortgageAPR(){
 	output.val('Total of 120 Payments').replace('120', loanTerm * 12).set('total-payments-count-2');
 	output.val(currencyFormat(totalLoanPayment)).set('total-payments-2');
 	output.val(currencyFormat(totalInterest)).set('total-interest-2');
-	output.val('PMI Insurance (0 months)').replace('0', pmiPaymentsCount).set('pmi-payments-count-2');
+	output.val('PMI (0 months)').replace('0', pmiPaymentsCount).set('pmi-payments-count-2');
 	output.val(currencyFormat(monthlyPmi) + '/month').set('pmi-payment-result-2');
 	output.val(currencyFormat(pmiPaymentsTotal)).set('pmi-total-result-2');
 	output.val(currencyFormat(totalPayment)).set('all-payments-total-2');

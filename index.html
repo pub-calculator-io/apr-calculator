@@ -100,7 +100,7 @@
                 			</div>
                 		</label>	</div>
                 	<div class="input-wrapper row">
-                		<label class="input col ">
+                		<label class="input col auto-loan-calculator,loan-calculator,amortization-calculator,interest-calculator,interest-rate-calculator,mortgage-calculator,personal-loan-calculator,business-loan-calculator,car-loan-calculator,fha-loan-calculator,credit-card-payoff-calculator,home-loan-calculator">
                 			<p class="input__title">Compound</p>
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row " tabindex="0">
@@ -135,7 +135,7 @@
                 					</select>
                 				</div>
                 			</div>
-                		</label>		<label class="input col ">
+                		</label>		<label class="input col auto-loan-calculator,loan-calculator,amortization-calculator,interest-calculator,interest-rate-calculator,mortgage-calculator,personal-loan-calculator,business-loan-calculator,car-loan-calculator,fha-loan-calculator,credit-card-payoff-calculator,home-loan-calculator">
                 			<p class="input__title">Pay Back</p>
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row " tabindex="0">
@@ -265,7 +265,7 @@
                 		</label>	</div>
                 	<div class="input-wrapper row">
                 		<label class="input col  ">
-                			<p class="input__title">PMI Insurance</p>
+                			<p class="input__title">PMI</p>
                 			<div class="input-field row">
                 				<span class="input-field__hint">$</span>
                 				<input type="text" class="input-field__input" placeholder="" id="pmi_insurance" value="" />
@@ -279,23 +279,29 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
-                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script"></script>
+                	<script type="text/javascript" src="./assets/js/lib/chartjs/chart.min.js" id="chartjs_lib" defer></script>
+                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script" defer></script>
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
                 <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row tab " data-tab="1">
                 
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculateMortgageAPR(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculateMortgageAPR(this); animateElements();" data-action="calculateMortgageAPR" id="action-button">Calculate</button>
                 </div>
                 
-                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script"></script>
+                	<script type="text/javascript" src="./assets/js/lib/chartjs/chart.min.js" id="chartjs_lib" defer></script>
+                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script" defer></script>
+                
+                
                 
                 
                 
@@ -313,14 +319,13 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col">
 	<p class="table-cell table-cell--table-dark table-cell--only-title">Result</p>
 	<div class="row row--wrap">
 		<div class="result-table__wrapper">
 			<div class="col tab tab--active" data-tab="0">
-				<table class="result-table">
+				<table class="result-table animate">
 					<thead>
 					<tr>
 						<th class="semibold border-radius-top-left">Real APR</th>
@@ -356,7 +361,7 @@
 				</table>
 			</div>
 			<div class="col tab" data-tab="1">
-				<table class="result-table">
+				<table class="result-table animate">
 					<thead>
 					<tr>
 						<th class="semibold border-radius-top-left">Real APR</th>
@@ -386,11 +391,11 @@
 						<td class="border-right" id="total-interest-2">$84,648.13</td>
 					</tr>
 					<tr>
-						<th class="semibold" id="pmi-payments-count-2">PMI Insurance (0 months)</th>
+						<th class="semibold" id="pmi-payments-count-2">PMI (0 months)</th>
 						<td class="border-right" id="pmi-payment-result-2">$0.00/month</td>
 					</tr>
 					<tr>
-						<th class="semibold">Total PMI Insurance Payments</th>
+						<th class="semibold">Total PMI Payments</th>
 						<td class="border-right" id="pmi-total-result-2">$0.00</td>
 					</tr>
 					<tr>
@@ -1284,11 +1289,7 @@
 			</div>
 		</div>
 	</div>
-</div>
-
-<!-- <script src="./assets/js/chart.js"./assets/js/chart.js').then(e => switchTheme = e.default)
-</script> -->
-</span>
+</div></span>
     </div>
 </div>
 
